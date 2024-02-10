@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+  text-align: center;
+  background: linear-gradient( to bottom, #8001d4, #8001d4); 
+  font-size: 3rem;
+}
+.container {
+  height: 100vh;
+  border: 2px solid black;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 400px 300px;
+  align-content: center;
+  justify-content: center;
+  background: linear-gradient( to bottom, #8001d4, #a602ac);  /* Updated property */
+  color: rgb(44, 44, 44);
+}
+
+.box {
+  border: 2px solid rgb(42, 255, 42);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.5s ease-in-out, 
+  border-top-right-radius 0.5s, 
+  border-bottom-right-radius 0.5s, 
+  opacity 0.3s ease-in-out; 
+  transition-delay: 0.3s
+}
+.one .box p {
+  visibility: hidden;
+  font-size: 0;
+  overflow: hidden;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+#box-1 {
+  background-color: #ffe082; /* Light Yellow */
+}
+
+#box-2 {
+  background-color: #ffd54f; /* Amber */
+}
+
+#box-3 {
+  background-color: #ffcc80; /* Orange */
+}
+
+#box-4 {
+  background-color: #ffab91; /* Deep Orange */
+}
+
+#box-5 {
+  background-color: #c5e1a5; /* Light Green */
+}
+
+#box-6 {
+  background-color: #a5d6a7; /* Green */
+}
+
+#box-7 {
+  background-color: #81d4fa; /* Light Blue */
+}
+
+#box-8 {
+  background-color: #80deea; /* Blue */
+}
+
+#box-9 {
+  background-color: #f48fb1; /* Purple */
+}
+
+#box-10 {
+  background-color: #ffccbc; /* Light Orange */
+}
+
+
+
+
+#box-10 {
+  z-index: 2;
+}
